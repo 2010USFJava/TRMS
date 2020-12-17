@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="/ProjectOne/resources/html/profile.css" rel="stylesheet" />
+<link href="/projectOne/resources/html/signin.css" rel="stylesheet" />
+<meta charset="ISO-8859-1">
+<title>Update Employee</title>
+
+<link href="/ProjectOne/resources/html/profile.css" rel="stylesheet" />
+<style>
+.container {
+  height: 700px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+      .center {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  }
+</style>
+</head>
+<body class="center" style="background-color:#C1E6F5">
+	<form method="POST" action="/ProjectOne/updatesuccess.change">
+	<div class="container">
+	<div class="vertical-center">
+		<div class="banner">
+				<h1>Update Employee Information</h1>
+			</div>
+			<br></br>
+			<div class="item">
+				<p>Verify Employee ID</p>
+				<input type="text" name="eid" placeholder="Employee ID" required />
+			</div>
+			<br></br>
+			<div class="item">
+				<p>New Username</p>
+				<input type="text" name="username" placeholder="New Username" />
+			</div>
+			<br></br>
+			<div class="item">
+				<p>Update Password</p>
+				<input type="text" name="password" placeholder="New Password" /> 
+			</div>
+			<br></br>
+			<button type="submit" href="/">Update Employee Login</button>
+		</div>
+		</div>
+			</form>
+			
+			
+</body>
+</html>

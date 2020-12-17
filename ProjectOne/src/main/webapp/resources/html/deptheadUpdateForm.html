@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="ISO-8859-1">
+<title>Update Reimbursement Status </title>
+
+<link rel="stylesheet" href="profile.css">
+
+<style>
+.container {
+  height: 800px;
+  position: relative;
+  
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+      .center {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  }
+
+</style>
+
+</head>
+<body class="center" style="background-color:#C1E6F5">
+	<form method="POST" action="/ProjectOne/reupdatesuccessdepth.change">
+	<div class="container">
+	<div class ="vertical-center">
+		<div class="banner">
+				<h1>Update Reimbursement Form Status</h1>
+			</div>
+			<div class="item">
+				<p>Enter the reimbursement form ID</p>
+				<input type="text" name="reID" placeholder="Reimbursement Form ID" required />
+			</div>
+			<br></br>
+			<div class="item">
+				<p>Select Status</p>
+				<select
+				name="status" required>
+				<option value="pending">Pending</option>
+				<option value="approved">Approved</option>
+				<option value="denied">Denied</option>
+				</select>
+			</div>
+			<br></br>
+			<div class="item">
+				<p>Request More Information From:</p>
+				<input type="text" name="ID" placeholder="Enter entity ID"  />
+				<select
+				name="request" required>
+				<option value="employee">Employee</option>
+				<option value="manager">Manager</option>
+				</select>
+			</div>
+			<br></br>
+			<div class="item">
+		<p>
+			Description of Requested Information
+		</p>
+		<textarea rows="3" name="description" ></textarea>
+	</div>
+	<br></br>
+	
+			<button type="submit" href="/">Submit Status</button>
+			</div>
+			</div>
+			</form>
+			
+			
+</body>
+</html>
