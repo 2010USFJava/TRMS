@@ -1,23 +1,3 @@
-# TRMS
-Tuition Reimbursement Management System
-
-The TRMS was created as a way to manage the companies reimbursement requests from employees and make sure that all of the acceptance and denials were tracked and accounted for in an organized and easy to see fasion. 
-
-
-
-Accomplishments:
--Created the API using Java, JDBC, and Servlets.
-
--Abided by OOP conventional structures by separating functions into different classes and interfaces.
-
--Used AJAX workflow to deliver JSON responses for API calls.
-
--Connected the API to a PostgreSQL database
-
--Performend CRUD operations to manipulate entites in the database. 
-
--Implemented HTTP Sessions to capture user information through various pages and close the session when needed.
-
 <h1>TRMS (Tuition Reimbursement Management System)</h1>
 
 <h2>Project Description</h2>
